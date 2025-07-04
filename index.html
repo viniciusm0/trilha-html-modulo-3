@@ -8,37 +8,267 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <header id="inicio">   
+        <picture class="logo">
+            <img src="assets/images/logo.png" alt="Logo do site wikipedia 2 um globo da wikipedia com um controle de videogame com elementos de jogos" width="200"/>
+        </picture>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
-
-    <div class="bar"></div>
-
+        <div class="bar"></div>
+    </header>
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+        <aside>
+            <nav class="sidebar">
+                <h2>Games</h2>
+                <ul>
+                    <li><a href="#osu">Osu!</a></li>
+                    <li><a href="#valorant">Valorant</a></li>
+                    <li><a href="#the-sims4">The Sims 4</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <section id="osu">
+                <h1>Tudo sobre Osu!</h1>
+                <figure>
+                    <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1024px-Osu%21_Logo_2016.svg.png" alt="Logo do jogo osu!">
+                    <figcaption>Logo do jogo osu!</figcaption>
+                </figure>
+                <small><a href="#inicio">(Voltar)</a></small>
+                <p>
+                    Osu! é um jogo de ritmo gratuito desenvolvido e publicado por Dean Herbert em 2007 originalmente para o Microsoft Windows, sendo posteriormente portado para 
+                    OS X, iOS e Windows Phone. A jogabilidade é baseado noutros jogos como osu! Tatakae! Ouendan, Taiko no Tatsujin, beatmania IIDX, O2Jam, Elite Beat Agents e DJMax.
+                    osu! foi escrito em C# usando a .NET Framework. Em 28 de agosto de 2016, o código fonte do jogo se tornou open-source sob a licença MIT, e os assets do jogo sob 
+                    a licença CC BY-NC 4.0 da Creative Commons. Chamado de "Lazer", o projeto tem como objetivo tornar osu! disponível para mais plataformas e ser transparente.
+                </p>
+                <h2 id="jogabilidades-recursos-osu">Jogabilidades e Recursos</h2>
+                <p>
+                    Existem quatro modos de jogo oficiais: "osu!" (chamado de "osu!standard"), "osu!taiko", "osu!catch" e "osu!mania". Com a adição do osu!lazer, 
+                    os jogadores agora podem adicionar modos de jogo personalizados ao osu! cliente. O modo osu!standard original continua sendo o mais popular 
+                    até o momento e em janeiro de 2023, o jogo tinha mais de 19,3 milhões de usuários ativos mensais de acordo com as tabelas de classificação globais 
+                    dos países do jogo. Cada modo oferece uma variedade de "beatmaps", que são níveis de jogo tocados com músicas de diferentes durações, que vão desde 
+                    aberturas de anime em "tamanho de TV" até "maratonas" que ultrapassam 7 minutos. No osu!standard, os beatmaps consistem em três itens – círculos de impacto, 
+                    controles deslizantes e giradores. O objetivo do jogo é que o jogador clique nesses itens no ritmo da música. Esses itens são conhecidos coletivamente como 
+                    "objetos atingidos" ou "círculos" e são organizados em diferentes posições na tela (exceto o botão giratório) em diferentes momentos durante uma música. 
+                    Os beatmaps de Taiko têm batidas de bateria e spinners. Os beatmaps de captura têm frutas e spinners (que são bananas), que são organizados em queda horizontal. 
+                    Os beatmaps do Mania consistem em teclas (representadas como uma pequena barra) e retenções. O beatmap é então tocado acompanhado de música, simulando uma sensação 
+                    de ritmo conforme o jogador interage com os objetos ao ritmo da música. Cada beatmap é acompanhado por música e um fundo (que pode ser desativado). 
+                    O jogo pode ser jogado usando vários periféricos: a configuração mais comum é uma mesa digitalizadora ou mouse de computador para controlar o movimento 
+                    do cursor, emparelhado com um teclado ou um mini teclado com apenas duas teclas, e apenas o teclado para os beatmaps osu!taiko, osu!catch e osu!mania.
+                </p>
+                <h2 id="osu-standard">osu!standard</h2>
+                <p>
+                    "osu!standard" se inspira diretamente em Osu! Tatakae! Jogos de Ouendan. Neste modo, os jogadores seguem e clicam em círculos, 
+                    chamados de "hit circles", ao ritmo da música. Além dos "hit circles", existem também deslizadores e giros, que desafiam os 
+                    jogadores a manter o ritmo e a precisão. Este é o principal modo de jogo apresentado no osu! local na rede Internet. Os 
+                    jogadores usam um mouse, tablet ou teclado para clicar nos círculos no momento certo, de acordo com a música que está sendo 
+                    reproduzida. A pontuação é determinada pela precisão e tempo de acerto dos cliques.
+                </p>
+                <h2 id="osu-mania">osu!mania</h2>
+                <p>
+                    "osu!mania" é um jogo de ritmo de rolagem vertical que se inspira principalmente em outros jogos de ritmo, como beatmania e 
+                    StepMania. O modo de jogo consiste em notas que caem verticalmente em diferentes pistas, com uma tecla usada para tocar em 
+                    cada pista. As "notas" no osu!mania são representadas por barras verticais, cada uma correspondendo a uma tecla específica 
+                    no teclado. Dependendo da configuração, pode variar de 4 a 9 teclas, imitando diferentes níveis de dificuldade.
+                </p>
+                <h2 id="osu-taiko">osu!taiko</h2>
+                <p>
+                    "osu!taiko" simula jogar taiko e é baseado em Taiko no Tatsujin. Neste modo de jogo, os jogadores usam um controle ou teclado 
+                    para pressionar os botões correspondentes aos "tambores" ou "notas" conforme elas aparecem na tela, seguindo o ritmo da música.
+                     O objetivo é acertar as notas no momento certo para obter a maior pontuação possível.
+                </p>
+                <h2 id="osu-catch">osu!catch</h2>
+                <p>
+                    O modo de jogo final, "osu!catch", é baseado em "EZ2CATCH", que fazia parte do gabinete EZ2DJ. Neste modo de jogo, 
+                    o jogador move um apanhador para a esquerda ou para a direita para pegar as frutas que caem do topo da tela.
+                </p>
+            </section>
 
-        <div class="main">
-            
-        </div>
+            <section id="valorant">
+                <h1>Tudo sobre Valorant</h1>
+                <figure>
+                    <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png" alt="Logo do jogo valorant">
+                    <figcaption>Logo do jogo valorant</figcaption>
+                </figure>
+                <small><a href="#inicio">(Voltar)</a></small>
+                <p>
+                    Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado 
+                    pela Riot Games. É o primeiro jogo do gênero desenvolvido pela empresa, sendo anunciado pela primeira vez com 
+                    o codinome Project A em outubro de 2019, em um evento de comemoração de 10 anos de League of Legends. Foi lançado 
+                    em 2 de junho de 2020 para Microsoft Windows. Foi portado para Xbox Series X/S e PlayStation 5 em junho de 2024, 
+                    embora sem crossplay entre clientes de PC e console.
+                </p>
+                <h2 id="jogabilidade-valorant">Jogabilidade</h2>
+                <p>
+                    Duas equipes de cinco jogam uma contra a outra, e os jogadores assumem o papel de "agentes" com habilidades únicas. 
+                    No modo de jogo principal, a equipe atacante tem uma bomba, chamada Spike, que eles precisam plantar em um local. 
+                    Se a equipe atacante proteger com sucesso a bomba e ela detonar, eles ganharão um ponto. Se a equipe defensora 
+                    desarmar com sucesso a bomba ou o cronômetro de 100 segundos da rodada expirar, a equipe defensora receberá um ponto. 
+                    Eliminar todos os membros da equipe adversária também ganha uma rodada. A primeira equipe a vencer o melhor de 24 
+                    rodadas vence a partida. O jogo também promove um servidor com tick rate de 128, que garante uma jogabilidade 
+                    suave e baixo ping com uma expansão global de data centers.
+                </p>
+                <h2 id="recepcao-valorant">Recepção</h2>
+                <p>
+                    Valorant foi comparado ao Counter-Strike: Global Offensive da Valve, com ambos os jogos tendo duas equipes de cinco 
+                    jogadores tentando plantar uma bomba, e ao Overwatch da Blizzard Entertainment, já que ambos os jogos têm várias classes 
+                    e personagens atendendo a vários estilos de jogo. Austen Goslin, da Polygon, elogiou o beta de Valorant, descrevendo-o 
+                    como refinado e "um dos jogos de tiro tático mais divertidos que já joguei". No primeiro dia de seu lançamento beta, 
+                    o Valorant acumulou o segundo maior número de espectadores simultâneos para qualquer jogo na Twitch, com 1,73 milhão 
+                    de espectadores sintonizados em dezenas de transmissões. Apenas outro título da Riot Games, League of Legends, 
+                    teve mais espectadores simultâneos, quando 1,74 milhão assistiram à final do Campeonato Mundial de 2019.
+                    Valorant recebeu críticas por seu sistema de comunicação de voz tóxico e dominado por homens. Emily Rand, 
+                    da ESPN, falou sobre sua experiência negativa jogando em times que usam a função de comunicação por voz como 
+                    mulher. Rand "recusa-se terminantemente a usá-lo" quando não está brincando com seus amigos. Jordon Oloman, 
+                    do The Guardian, explica como "as maçãs podres entre os jogadores de Valorant esperam um nível absurdo de 
+                    perfeição, e as críticas resultante do bate-papo por voz dificilmente são construtivas". Foi indicado para 
+                    Melhor Jogo de Esports, Melhor Multijogador e Melhor Suporte à Comunidade no The Game Awards 2020. Venceu 
+                    como Melhor Jogo de Esports no The Game Awards 2022.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">
+                                Recepção
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                Resenha Critica
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Publicação</th>
+                            <th>Nota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>IGN</td>
+                            <td>9/10</td>
+                        </tr>
+                        <tr>
+                            <td>GameSpot</td>
+                            <td>7/10</td>
+                        </tr>
+                        <tr>
+                            <td>Game Informer</td>
+                            <td>8.5/10</td>
+                        </tr>
+                        <tr>
+                            <td>The Guardian</td>
+                            <td>4/5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">Pontuação Global</th>
+                        </tr>
+                        <tr>
+                            <th>Agregador</th>
+                            <th>Nota Media</th>
+                        </tr>
+                        <tr>
+                            <td>Metacritic</td>
+                            <td>80/100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <h2 id="lancamento-valorant">Lançamento</h2>
+                <p>
+                    Valorant foi provocado pela primeira vez sob o título Project A em outubro de 2019. Foi anunciado 
+                    oficialmente em 1º de março de 2020, com um vídeo de jogabilidade no YouTube chamado "The Round". 
+                    A versão beta fechada do jogo foi lançada em 7 de abril de 2020 nos Estados Unidos, Canadá, Europa, 
+                    Rússia e Turquia; no Brasil e na Coreia do Sul, a versão beta foi lançada em 5 de maio. Valorant 
+                    foi lançado oficialmente em 2 de junho de 2020 para maioria das regiões do mundo através de etapas 
+                    por cada localidade e seus fusos horários. Começou pela Coreia do Sul, Japão e maior parte da 
+                    região Ásia-Pacífico. Logo após, chegou a vez dos servidores da Europa, Turquia, Oriente Médio, 
+                    Norte da África e países da CEI. Pouco depois, o Brasil, América do Norte e América Latina viram 
+                    o jogo ser disponibilizado. Até o momento, Valorant está disponível para a plataforma 
+                    Microsoft Windows, PlayStation 5 e Xbox Series X/S.
+                </p>
+            </section>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+            <section id="the-sims4">
+                <h1>Tudo sobre The Sims 4</h1>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/3/34/Nova_capa_de_The_Sims_4.png" alt="Capa do jogo the sims 4">
+                    <figcaption>Capa do jogo the sims 4</figcaption>
+                </figure>
+                <small><a href="#inicio">(Voltar)</a></small>
+                <p>
+                    The Sims 4 é um jogo eletrônico de simulação social de 2014 desenvolvido pela Maxis e publicado pela Electronic Arts. 
+                    É o quarto título principal da série The Sims e é a sequência de The Sims 3 (2009). The Sims 4 foi anunciado em 6 
+                    de maio de 2013 e lançado em setembro de 2014 para Microsoft Windows; versões para macOS, PlayStation 4 e Xbox One 
+                    foram lançadas posteriormente em 2015 e 2017. The Sims 4 se concentra em suas ferramentas aprimoradas de criação 
+                    de personagens e construção de casas, bem como em uma simulação mais profunda no jogo com os novos sistemas de 
+                    emoção e personalidade para os Sims. O The Sims 4 recebeu muitos pacotes de conteúdo para download pago desde 
+                    seu lançamento. Dezesseis pacotes de expansão, doze "pacotes de jogos", dezoito "coleções de objetos", dezesseis 
+                    "kits" e seis "kits de criadores" foram lançados; o pacote de expansão mais recente é o Businesses & Hobbies, 
+                    lançado em 06 de março de 2025. Além disso, muitas atualizações gratuitas foram lançadas ao longo da vida útil 
+                    do jogo que incluem principais recursos e adições ao jogo, como adição de piscinas, opções de personalização de 
+                    personagens, e ferramentas de terreno. O jogo recebeu críticas mistas após seu lançamento, com a maioria das 
+                    críticas direcionadas à falta de conteúdo e recursos ausentes em comparação com as entradas anteriores da série.
+                </p>
+                <h2 id="criar-um-sim">Criar um Sim</h2>
+                <p>
+                    Criar-um-Sim é a interface principal para criar Sims no The Sims 4, e foi significativamente alterada em relação 
+                    aos jogos anteriores do The Sims. Os controles deslizantes para ajustar as características faciais e corporais 
+                    são removidos e substituídos pela manipulação direta do mouse. Ao clicar, arrastar e puxar com o mouse, 
+                    os jogadores podem manipular diretamente as características faciais e corporais de um Sim, como partes do corpo 
+                    como abdômen, peito, pernas, braços e pés. Seleções de designs pré-fabricados de Sims estão disponíveis 
+                    para escolha e variam em formato de corpo e etnia. O jogo base inclui mais de 40 penteados para homens e 
+                    mulheres. Há mais de 18 opções de cores para penteados e as opções de Sims pré-fabricados pela Maxis contém 
+                    diversas variações de corpos e etnicidades. Os Sims têm oito estágios de vida: recém-nascido, bebê de colo, 
+                    bebê, criança, adolescente, jovem adulto, adulto e idoso. Todos os estágios da vida podem ser criados no 
+                    Criar-um-Sim, com exceção dos recém-nascidos. Os bebês estavam ausentes do lançamento original do jogo, mas 
+                    foram adicionados por meio de uma atualização em 2017.[8] Os bebês de colo foram a adição mais recente dentre 
+                    os estágios de vida, sendo adicionados por meio de uma atualização em 2023. Cada Sim tem três traços de 
+                    personalidade e uma aspiração contendo seu próprio traço especial. Traços formam a personalidade 
+                    de um Sim e afetam significativamente o comportamento e as emoções de um Sim. As aspirações são metas 
+                    para toda a vida dos Sims, os Sims recebem uma característica de recompensa por completar uma aspiração, 
+                    o que lhes dá uma vantagem em ações relevantes para a aspiração. Os Sims também podem ter gostos e 
+                    desgostos que determinam a estética e as atividades que os Sims preferem. Existem penteados, com várias 
+                    opções de cores de cabelo, tanto para Sims masculinos quanto femininos. Todas as opções de roupas estão 
+                    disponíveis em todas as roupas, e os jogadores podem ter até cinco roupas por categoria. Há um painel de 
+                    filtros onde as opções de roupas podem ser classificadas por cor, material, categoria de roupa, escolha 
+                    de moda, estilo, conteúdo e pacotes. As opções de gênero para os Sims foram expandidas em uma atualização 
+                    de 2016, permitindo maior liberdade de expressão de gênero. Com esta atualização, penteados e roupas podem 
+                    ser usados ​​por qualquer Sim de qualquer sexo, e a gravidez agora é possível independentemente do sexo. A 
+                    diversidade de tons de pele no jogo foi bastante expandida em uma atualização de 2020. Com esta atualização, 
+                    as cores de pele dos Sims são definidas dividindo-as em tons quentes, neutros e frios, e a transparência e 
+                    saturação dos tons de pele e cores de maquiagem podem ser ajustadas para a cor desejada pelo jogador.
+                </p>
+            </section>
+        </main>
+
+        <aside>
+            <nav class="anchors">
+                <h2>Neste Artigo</h2>
+                <ul>
+                    <li><h3>Osu!</h3></li>
+                    <ul>
+                        <li><a href="#jogabilidades-recursos-osu">Jogabilidades e Recursos</a></li>
+                        <li><a href="#osu-standard">Osu Standard</a></li>
+                        <li><a href="#osu-mania">Osu Mania</a></li>
+                        <li><a href="#osu-taiko">Osu Taiko</a></li>
+                        <li><a href="#osu-catch">Osu Catch</a></li>
+                    </ul>
+                    <li><h3>Valorant</h3></li>
+                    <ul>
+                        <li><a href="#jogabilidade-valorant">Jogabilidade</a></li>
+                        <li><a href="#recepcao-valorant">Recepção</a></li>
+                        <li><a href="#lancamento-valorant">Lançamento</a></li>
+                    </ul>
+                    <li><h3>The Sims 4</h3></li>
+                    <ul>
+                        <li><a href="#criar-um-sim">Criar um Sim</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </aside>
     </div>
+    <footer class="footer">
 
-    <div class="footer">
-
-    </div>
+    </footer>
 </body>
 </html>
